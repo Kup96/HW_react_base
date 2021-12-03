@@ -1,0 +1,25 @@
+h1{
+    margin-left: 870px;
+    margin-bottom: 150px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+.error{
+    color: teal;
+    margin-top: 400px;
+    margin-left: 600px;
+    font-size: larger;
+
+}

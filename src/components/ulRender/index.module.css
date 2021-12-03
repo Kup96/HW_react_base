@@ -1,0 +1,16 @@
+li{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+.name{
+    display:flex;
+    flex-direction: row;
+}
+.title{
+    color: red;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
