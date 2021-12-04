@@ -24,19 +24,19 @@ function ProfilesShow(){
     console.log(users);
     console.log(isFetching);
 
-    const prev = (e, currentPage) => {
+    const prev = (e) => {
         e.preventDefault()
         if (currentPage > 0){
-            setCurrentPage(currentPage--);
+            setCurrentPage(currentPage-1);
         }
         else{
             alert('Enough pages!')
         }
     }
 
-    const next = (e, currentPage) => {
+    const next = (e) => {
         e.preventDefault()
-        setCurrentPage(currentPage++);
+        setCurrentPage(currentPage+1);
     }
 
 
